@@ -4,7 +4,6 @@ on:
   push:
     branches: [js-new-branch-hw08]
 
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
