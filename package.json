@@ -28,7 +28,9 @@
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "sass-loader": "^13.1.0",
+    "webpack": "^5.74.0"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
