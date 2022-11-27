@@ -20,6 +20,7 @@ async function onSearchFormSubmit(e) {
   e.preventDefault();
   const { value } = e.target.elements.searchQuery;
   e.target.reset();
+  itemsApi.resetPage();
   await itemsApi
     .fetchItems(value)
     .then(res => {

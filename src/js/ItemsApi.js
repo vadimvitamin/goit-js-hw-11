@@ -25,7 +25,8 @@ export class ItemsApi {
         key: '30990142-02df30911bc49e76c2f735058',
         per_page: 40,
         q: this.value,
-        image_type: 'photo',
+        image_type: 'photo', 
+      page:this.page
       },
     };
 
