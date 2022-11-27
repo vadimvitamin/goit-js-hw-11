@@ -1,3 +1,5 @@
+import simpleLightbox from 'simplelightbox';
+import "simplelightbox/dist/simple-lightbox.min.css"
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import 'notiflix/dist/notiflix-3.2.5.min.css';
 import '../css/styles.css';
@@ -68,6 +70,7 @@ function removeChildren(el) {
 
 function renderList(itemList) {
   galleryRef.insertAdjacentHTML('beforeend', getItemListMarkup(itemList));
+  new simpleLightbox (".photo-card",{captionDelay:250}).refresh()
 }
 
 function getItemListMarkup(itemList) {
