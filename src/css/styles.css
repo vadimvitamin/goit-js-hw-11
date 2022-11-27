@@ -14,12 +14,9 @@ body {
 
 .search-form {
   width: 400px;
-  padding-top: 20px;
+  padding-top: 25px;
   font: inherit;
-  /* padding: 8px; */
   margin: 0 auto;
-
-  /* max-width: 320px; */
   margin-bottom: 16px;
 }
 .search-form input {
